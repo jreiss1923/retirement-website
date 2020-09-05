@@ -1,3 +1,29 @@
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-style: bold;
+}
+
+.centered {
+    display: flex;
+    height: 60em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+span.i {
+    font-style: italic;
 }
